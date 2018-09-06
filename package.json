@@ -1,0 +1,22 @@
+{
+  "name": "simple-http",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.11.4",
+    "npm": "5.6.0"
+  },
+  "description": "simple http homework",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js"
+  },
+  "author": "Josh Martin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
